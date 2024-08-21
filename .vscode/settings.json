@@ -1,0 +1,13 @@
+{
+    "window.zoomLevel": 0,
+    "editor.fontSize": 18,
+    "terminal.integrated.fontSize": 16,
+    
+    // "workbench.iconTheme": "vscode-icons",
+    // "workbench.colorTheme": "Noctis Obscuro",
+    "editor.minimap.enabled": false,
+    "files.associations": {
+        "stdio.h": "c",
+        "stdlib.h": "c"
+    }
+}
