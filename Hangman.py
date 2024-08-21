@@ -2,6 +2,17 @@ import random
 from Kata import Daftar_Kata
 from Kata import Daftar_Kata_Tantangan
 
+"""
+Made by Mycticount Xeta Ahlovely (Mycticount-X)
+Some of this code belongs to Parvat Computer Technology (YouTube)
+"""
+
+"""
+Mengambil Kata acak dari Daftar_Kata
+dan Daftar_Kata_Tantangan di File "Kata"
+
+Get Random Words from Daftar_Kata and Daftar_Kata_Tantangan in File "Kata"
+"""
 def Ambil_Kata():
      Kata = random.choice(Daftar_Kata)
      return Kata.upper()
@@ -10,6 +21,17 @@ def Ambil_Kata_Tantangan():
      Kata = random.choice(Daftar_Kata_Tantangan)
      return Kata.upper()
 
+
+"""
+Ini adalah bagian game utamanya
+Pada dasarnya, meminta pengguna memasukan
+Kata atau Huruf dari Kata acak tadi
+Jika benar, Huruf akan terungkap.
+Jika salah, Nyawa Hangman akan berkurang.
+Permainan Dianggap selesai apa bila
+Pemain menebak kata yang benar (Menang)
+atau Hangman Digantung (Kalah)
+"""
 def play(Kata):
     Kompilasi_Kata = "_" * len(Kata)
     Tebakan_Benar = False
