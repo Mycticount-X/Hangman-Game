@@ -41,7 +41,7 @@ Silahkan tebak sebuah huruf atau kata:
 
 ## Author
 
-This Hangman game was created by **Mycticount Xeta Ahlovely (Mycticount-X)**. Some parts of the code were inspired by content from Parvat Computer Technology on YouTube.
+This Hangman game was created by **Mycticount Xeta Ahlovely (Mycticount-X)**. Some parts of the code were inspired by content from Kite on YouTube.
 
 ## License
 
@@ -92,7 +92,7 @@ Silahkan tebak sebuah huruf atau kata:
 
 ## Penulis
 
-Permainan Hangman ini dibuat oleh **Mycticount Xeta Ahlovely (Mycticount-X)**. Beberapa bagian kode terinspirasi dari konten di Parvat Computer Technology di YouTube.
+Permainan Hangman ini dibuat oleh **Mycticount Xeta Ahlovely (Mycticount-X)**. Beberapa bagian kode terinspirasi dari konten di Kite di YouTube.
 
 ## Lisensi
 
