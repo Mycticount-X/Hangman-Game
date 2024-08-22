@@ -4,6 +4,16 @@ Daftar_Kata= [
     'Komputer'
 ]
 
+""" [ENG]
+This is all the Words and the Challange Words
+You can change the word from here
+"""
+
+""" [IND]
+Ini adalah Daftar semua Kata dan Kata Tantangan 
+Kalian bisa mengubahnya dari sini
+"""
+
 Daftar_Kata = [
     "Rumah", "Sekolah", "Mobil", "Motor", "Buku", "Makanan", "Minuman", "Komputer",
     "Telepon", "Meja", "Kursi", "Kamar", "Lampu", "Jalan", "Gedung", "Kantor",

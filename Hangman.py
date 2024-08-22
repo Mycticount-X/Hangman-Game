@@ -7,12 +7,16 @@ Made by Mycticount Xeta Ahlovely (Mycticount-X)
 Some of this code belongs to Parvat Computer Technology (YouTube)
 """
 
+""" [ENG]
+Get Random Words from Daftar_Kata
+and Daftar_Kata_Tantangan in File "Kata"
 """
+
+""" [IND]
 Mengambil Kata acak dari Daftar_Kata
 dan Daftar_Kata_Tantangan di File "Kata"
-
-Get Random Words from Daftar_Kata and Daftar_Kata_Tantangan in File "Kata"
 """
+
 def Ambil_Kata():
      Kata = random.choice(Daftar_Kata)
      return Kata.upper()
@@ -21,16 +25,39 @@ def Ambil_Kata_Tantangan():
      Kata = random.choice(Daftar_Kata_Tantangan)
      return Kata.upper()
 
-
+""" [ENG]
+This is the main game section
+Basically, 
+- Displays Hangman and omitted words
+(Word = APPLE) (Screen = _____)
+- Ask the user to enter words or letters
+- If correct, the Letter will be revealed.
+- If wrong, Hangman's life will be reduced.
+- Input will be rejected if:
+   - Invalid: Not a letter
+   - Words do not match the number of letters
+   - The letters have already been guessed
+- The game is considered finished when
+   - Player guesses the correct word (Win)
+   - The Hangman Hanged / Finished Drawn (Lose)
 """
+
+""" [IND]
 Ini adalah bagian game utamanya
-Pada dasarnya, meminta pengguna memasukan
-Kata atau Huruf dari Kata acak tadi
-Jika benar, Huruf akan terungkap.
-Jika salah, Nyawa Hangman akan berkurang.
-Permainan Dianggap selesai apa bila
-Pemain menebak kata yang benar (Menang)
-atau Hangman Digantung (Kalah)
+Pada dasarnya, 
+- Menampilkan Hangman dan kata yang dihilangkan
+(Word = APPLE) (Screen = _____)
+- Meminta pengguna memasukan Kata atau Huruf
+- Jika benar, Huruf akan terungkap.
+- Jika salah, Nyawa Hangman akan berkurang.
+- Input akan ditolak apabila:
+   - Invalid: Bukan huruf
+   - Kata tidak sesuai jumlah huruf
+   - Huruf sudah pernah ditebak
+- Permainan Dianggap selesai apabila
+   - Pemain menebak kata yang benar (Menang)
+   - Hangman Digantung / Selesai DIgambar (Kalah)
+
 """
 def play(Kata):
     Kompilasi_Kata = "_" * len(Kata)
@@ -94,6 +121,16 @@ def play(Kata):
     else:
         print("Hangman telah digantung. Kata yang dimaksud adalah " + Kata)
 
+
+""" [ENG]
+This is the Hangman Drawing
+for every stages / HP
+"""
+
+""" [IND]
+Ini adalah gambar Hangman
+untuk setiap nyawa / HP
+"""
 
 def display_hangman(Nyawa):
     stages = [  #(Final)
