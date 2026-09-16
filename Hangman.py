@@ -1,6 +1,14 @@
 import random
+import json
 from Kata import Daftar_Kata
 from Kata import Daftar_Kata_Tantangan
+
+# Atau
+with open("kata.json", "r") as file:
+    data_kata = json.load(file)
+
+Daftar_Kata = data_kata["Daftar_Kata"]
+Daftar_Kata_Tantangan = data_kata["Daftar_Kata_Tantangan"]
 
 """
 Made by Mycticount Xeta Ahlovely (Mycticount-X)
